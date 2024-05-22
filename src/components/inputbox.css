@@ -1,0 +1,31 @@
+.Input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 20vh;
+    width: 40vw;
+    padding: 2rem;
+    background-color: rgba(0, 136, 255, 0.176);
+    border: 1px solid rgba(18, 124, 145, 0.607);
+    border-radius: 10px;
+}
+
+.curr-value-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.curr-code-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    width: 60px;
+}
